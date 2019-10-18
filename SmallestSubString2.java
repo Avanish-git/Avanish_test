@@ -15,8 +15,8 @@ public class SmallestSubString2 {
     */
     private static int smallestSubString(String inputString)
     {
-        char[] inputStringCharArray=inputString.toCharArray();
-        Set<Character> set=new LinkedHashSet<>();
+        char[] inputStringCharArray=inputString.toCharArray();//to convert string into charArray
+        Set<Character> set=new LinkedHashSet<>();// set for unique character
         for(Character character:inputStringCharArray)
         {
            set.add(character);

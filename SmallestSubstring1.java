@@ -5,12 +5,15 @@ public class SmallestSubString1 {
     {
         Scanner sc=new Scanner(System.in);
         String inputString=sc.nextLine();
-        int result=smallestSubString(inputString);
+        int result=smallestSubString(inputString);//method call
         System.out.println(result);
     }
+    /*
+    method to find smallest substring
+    */
     private static int smallestSubString(String inputString)
     {
-        int[] chracterFrequency=new int[26];
+        int[] chracterFrequency=new int[26];//To store frequency of character
         for(int i=0;i<inputString.length();i++)
         {
             char stringCharacter=inputString.charAt(i);

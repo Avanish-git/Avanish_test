@@ -7,9 +7,12 @@ public class SmallestSubString2 {
     {
         Scanner sc=new Scanner(System.in);
         String inputString=sc.nextLine();
-        int result=smallestSubString(inputString);
+        int result=smallestSubString(inputString);//method call
         System.out.println(result);
     }
+    /*
+    Method to find smallest Substring
+    */
     private static int smallestSubString(String inputString)
     {
         char[] inputStringCharArray=inputString.toCharArray();
